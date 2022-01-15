@@ -1,0 +1,187 @@
+body {
+  font-family: Montserrat;
+}
+
+.title {
+  background-color: red;
+  color: #fff;
+  text-align: leftl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Black;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 2.1rem
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: Montserrat-light;
+  margin: auto 14px auto 14px;
+  text-align: right;
+  position: relative;
+  left: 420px
+}
+
+/* Button*/
+.btn {
+  margin: 30px 10px auto 10px;
+}
+
+/* Tital image */
+.title_img {
+  width: 24%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 800px
+}
+
+/* Media query */
+@media(max-width:1000px) {
+  .title_img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 1200px) and (min-width:100px) {
+  .title_img {
+    position:static;
+    padding-left: 50px;
+          width: 70%;
+          transform: rotate(20);
+
+  }
+}
+
+/* features section */
+.features {
+  background-color: white;
+  padding: 7% 10%;
+  position: relative;
+  z-index: +1;
+}
+
+.feature {
+  text-align: center;
+  padding: 5%
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.fas {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.fas:hover {
+  color: pink;
+}
+
+/* testimonial section */
+#testimonials {
+  position: relative;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.dog {
+  width: 20%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.dog:hover {
+  background-color: gold;
+}
+
+/* Press */
+.press {
+  background-color: red;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: auto 30px auto
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price {
+  padding: 3% 2%;
+}
+
+/* call to attention */
+#cta {
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-family: Montserrat-Black;
+  padding: 7% 15%;
+}
+
+h4 {
+  font-size: 4rem;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Montserrat-Black";
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%;
+  font-size: 1.5rem
+}
+
+.fab {
+  margin: auto 10px 10px auto;
+}
